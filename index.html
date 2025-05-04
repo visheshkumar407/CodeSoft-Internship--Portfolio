@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishesh Kumar | Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="bubbles-bg"></div>
+
+  <header>
+    <div class="logo">✨ Vishesh Kumar</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeToggle"><i class="fas fa-moon"></i></button>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-text">
+      <h1>Hello, I'm <span class="name-gradient">Vishesh Kumar</span></h1>
+      <p><span class="typing"></span></p>
+      <a href="#projects" class="btn-glow">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="reveal">
+    <h2>About Me</h2>
+    <p>I’m a front-end developer who loves combining code and creativity. With experience in modern tools like React, SCSS, and APIs, I build interactive and user-focused digital experiences.</p>
+  </section>
+
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li><i class="fab fa-html5"></i> HTML5</li>
+      <li><i class="fab fa-css3-alt"></i> CSS3</li>
+      <li><i class="fab fa-js-square"></i> JavaScript</li>
+      <li><i class="fab fa-react"></i> React</li>
+      <li><i class="fas fa-code-branch"></i> Git & GitHub</li>
+      <li><i class="fas fa-laptop-code"></i> UI/UX Design</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x180" alt="Project 1">
+        <h3>Personal Portfolio</h3>
+        <p>A creative and responsive website built with pure HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x180" alt="Project 2">
+        <h3>Weather App</h3>
+        <p>API-powered app to show current weather with a dynamic UI.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x180" alt="Project 3">
+        <h3>Todo Tracker</h3>
+        <p>A productivity tool with React, animations, and dark mode.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <div class="input-group">
+        <input type="text" required />
+        <label>Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" required />
+        <label>Email</label>
+      </div>
+      <div class="input-group">
+        <textarea required></textarea>
+        <label>Message</label>
+      </div>
+      <button type="submit" class="btn-glow">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Vishesh Kumar. All rights reserved.</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
